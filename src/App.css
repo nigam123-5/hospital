@@ -1,0 +1,43 @@
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  background: url('/src/assets/doctor-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center; 
+}
+
+.google-text {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: bold;
+  background: linear-gradient(to right, #4285F4, #EA4335, #FBBC05, #34A853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  margin-top: 15px; 
+}
